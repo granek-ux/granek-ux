@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2496ED,100:61DAFB&height=200&section=header&text=Hi%20there%20👋%20I'm%20Granek!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2496ED,100:61DAFB&height=200&section=header&text=Hi%20there%20👋%20I'm%20Garnaalpak!&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35)
 
 <p align="center">
   <a href="https://git.io/typing-svg">
