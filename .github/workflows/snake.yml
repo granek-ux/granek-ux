@@ -1,0 +1,40 @@
+name: Generate Snake Animation
+
+on:
+  # Uruchamiaj automatycznie co 12 godzin
+  schedule:
+    - cron: '0 */12 * * *'
+  # Umożliwia ręczne uruchomienie z zakładki "Actions"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Krok 1: Pobranie kodu repozytorium
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Krok 2: Wygenerowanie animacji węża
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          # Twój username GitHub (pobierany automatycznie)
+          github_user_name: ${{ github.repository_owner }}
+          
+          # Lista plików do wygenerowania (dla trybu jasnego i ciemnego)
+          # Plik ?palette=github-dark jest specjalnie dla ciemnego motywu GitHub
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # Krok 3: Wypchnięcie wygenerowanych plików do repozytorium
+      # Ta akcja zapisze pliki z katalogu 'dist' do specjalnego brancha o nazwie 'output'
+      - name: Push generated files
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          # Token jest potrzebny do autoryzacji zapisu w repozytorium
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
