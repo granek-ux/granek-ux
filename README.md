@@ -26,6 +26,26 @@
 
 ---
 
+### 🚀 My Projects
+<p align="center">
+  <a href="https://github.com/granek-ux/NAZWA-REPO-1" target="_blank">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=granek-ux&repo=Pacman&theme=transparent&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=c9d1d9&bg_color=0d1117"
+      alt="Pacman"
+      width="48%"
+    />
+  </a>
+  <a href="https://github.com/granek-ux/NAZWA-REPO-2" target="_blank">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=granek-ux&repo=APBDPRO&theme=transparent&hide_border=true&title_color=61DAFB&icon_color=61DAFB&text_color=c9d1d9&bg_color=0d1117"
+      alt="APBDPRO"
+      width="48%"
+    />
+  </a>
+</p>
+
+---
+
 ### 🐍 Moje Kontrybucje
 
 <p align="center">
