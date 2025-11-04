@@ -15,14 +15,40 @@
 
 ---
 
-### 🚀 Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,cs,docker,gcp,java,js,mysql,nodejs,python,spring&theme=dark" />
-  
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/>
-  </a>
-</p>
+## 噫 Tech Stack
+
+<details>
+  <summary><b>🚀 Moje główne technologie (Najmocniejsze)</b></summary>
+  <br>
+  <p>
+    <i>Tu umieściłbym technologie, w których czujesz się jak ryba w wodzie. Na przykład:</i>
+  </p>
+  <p align="left">
+    <img src="https://skillicons.dev/icons?i=java,spring,docker,mysql&theme=dark" />
+  </p>
+</details>
+
+<details>
+  <summary><b>☁️ Aktualnie eksploruję i rozwijam</b></summary>
+  <br>
+  <p>
+    <i>Technologie, których aktywnie się uczysz lub chcesz używać więcej (np. GCP):</i>
+  </p>
+  <p align="left">
+    <img src="https://skillicons.dev/icons?i=gcp,python,nodejs&theme=dark" />
+  </p>
+</details>
+
+<details>
+  <summary><b>🛠️ Pozostałe technologie i narzędzia, z którymi pracowałem</b></summary>
+  <br>
+  <p align="left">
+    <img src="https://skillicons.dev/icons?i=cpp,cs,js&theme=dark" />
+    <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/>
+    </a>
+  </p>
+</details>
 
 ---
 
